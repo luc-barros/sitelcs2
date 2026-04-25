@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',      // Isso gera a pasta 'out' com o HTML
+  output: 'export',
+  basePath: '/sitelcs2', // ADICIONE ISSO: é o nome do seu repositório
   images: {
-    unoptimized: true,   // Necessário para o GitHub Pages
+    unoptimized: true,
   },
 };
 
