@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  output: 'export',      // Isso gera a pasta 'out' com o HTML
   images: {
-    unoptimized: true,
+    unoptimized: true,   // Necessário para o GitHub Pages
   },
 };
 
